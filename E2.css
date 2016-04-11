@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.row1 {
+    /* width: 90%;
+    height: 400px;
+    /*  padding-left: 5%;
+    padding-right: 5%;*/
+    background-color: rgb(128, 128, 128);
+    color: dimgrey;
+}
+
+.nav {
+    /* display: inline-block;*/
+}
+
+.col1 {
+    /*width: 19%;
+    /*padding-left: 0.5%;*/
+    /*padding-right: 2%;*/
+    float: left;
+    /*height: 200px;*/
+}
+
+.col2 {
+    /*width: 79%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    align-content: center;*/
+    display: inline-block;
+    height: 200px;
+    align-content: center;
+}
+
+.col2 ul {
+    list-style-type: none;
+}
+
+.col2 ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.col2 ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: black
+}
+
+.col1 ul li .active {
+    height: 1px;
+    width: auto;
+}
+
+.col3 {
+    width: 19%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    float: right;
+    height: 200px;
+}
+
+.col3 ul {
+    list-style-type: none;
+}
+
+.col3 ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.col3 ul li i {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+.header {
+    font-family: Roboto;
+    height: 200px;
+    width: 59%;
+    /*padding-left: 1%;
+    /*padding-right: 0.5%;*/
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+    color: snow;
+    text-decoration: none;
+    /*text-align: center;*/
+    padding-left: 6%;
+}
+
+.description {
+    font-size: 15px;
+    color: snow;
+    text-align: center;
+    padding-left: 2%;
+}
+
+.row2 {
+    width: 100%;
+    height: 600px;
+    /*padding-left: 5%;
+    padding-right: 5%;*/
+    background-color: rgb(128, 128, 128);
+    margin: 0;
+}
+
+.section1 {
+    width: 50%;
+    float: left;
+}
+
+.top {
+    font: roboto;
+    width: 50%;
+    height: 250px;
+    background-color: aliceblue;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
